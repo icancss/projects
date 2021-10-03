@@ -1,0 +1,44 @@
+/* Bayragin sekli, pozisyonu ve renginin ayarlanmasi */
+.flag-container {
+
+  width: 640px;
+  height: 640px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  
+}
+
+/* Hacin ust bolumunun rengi ve konumlandirilmasi */
+.box-1 {
+  width: 120px;
+  height: 140px;
+  position: absolute;
+  top: 120px;
+  left: 260px;
+  background-color: white;
+  
+}
+
+/* Hacin orta bolumunun rengi ve konumlandirilmasi */
+.box-2 {
+  width: 400px;
+  height: 120px;
+  position: absolute;
+  top: 260px;
+  left: 120px;
+  background-color: white;
+}
+
+/* Hacin alt bolumunun rengi ve konumlandirilmasi */
+.box-3 {
+  width: 120px;
+  height: 140px;
+  position: absolute;
+  bottom: 120px;
+  left: 260px;
+  background-color: white;
+}

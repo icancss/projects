@@ -1,0 +1,262 @@
+/*
+General Styling*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+
+  font-family: "Vision", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 2%;
+
+}
+
+
+/* 
+Header Part */
+
+header {
+
+  background: url("./img/wood.png") no-repeat;
+  background-size: cover;
+  opacity: 0.85;
+  height: 33vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profile-image {
+
+  width: 75px;
+  height: 75px;
+  color: #ffffff;
+
+}
+
+figcaption {
+
+  color: #ffffff;
+  text-align: center;
+
+}
+
+
+#intro h1 {
+
+  font-family: mina, 'Allura', cursive;
+  font-size: 4.5rem;
+  font-weight: 200;
+  opacity: 0.9;
+  text-shadow: 1px 1px 1px #cfbbd6,
+    1px 1px 1px #cfbbd6,
+    1px 1px 2px #cfbbd6,
+    2px 2px 1px #ffffff;
+  color: #cfbbd6;
+  transform: rotate(-9deg);
+
+  text-align: center;
+
+}
+
+#intro h2 {
+
+  color: #ffffff;
+  text-align: right;
+
+}
+
+
+/* 
+Hicoders Logo */
+
+.logo {
+  width: 150px;
+  height: 25px;
+  padding-top: 5px;
+
+}
+
+
+/* 
+Navigation Menu */
+
+nav {
+  padding: 5px;
+
+}
+
+ul li {
+
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px;
+
+}
+
+ul li a {
+
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.25rem;
+
+}
+
+
+/* 
+Side Image (Advert-Area) */
+
+aside {
+
+  width: 25%;
+  overflow: hidden;
+
+
+}
+
+aside img {
+
+  width: fit-content;
+  height: 99vh;
+  opacity: 0.5;
+
+}
+
+
+/* 
+Main Part */
+
+main {
+
+  margin: 1% auto;
+  display: flex;
+
+}
+
+#main-section {
+
+  width: 75%;
+  margin: 0 0 0 1%;
+
+}
+
+.section-box {
+  margin: 5px;
+  padding: 1px 3px 3px 7px;
+
+  border: 1px solid rgb(46, 27, 3);
+
+}
+
+.section-box:last-child {
+
+  padding-bottom: 2%;
+}
+
+
+/* 
+Special Hover for Hicoders */
+
+#mark-link {
+  color: #000000;
+
+}
+
+#mark-link:hover {
+  color: #cfbbd6;
+  background-color: rgb(46, 27, 3);
+  font-size: 125%;
+}
+
+
+/* 
+Arranging scale of values */
+
+span {
+  display: inline-block;
+  position: sticky;
+  left: 37%;
+
+}
+
+
+/* 
+Table Design */
+
+table {
+  border-collapse: collapse;
+  border: 0px;
+  font-size: 15px;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background: #cfbbd6;
+}
+
+tr:hover {
+  background-color: rgb(46, 27, 3);
+  color: #cfbbd6;
+}
+
+th {
+  text-align: left;
+  background: #333333;
+  color: white;
+}
+
+td {
+  padding: 5px;
+}
+
+th,
+td {
+  width: 25%;
+
+}
+
+th:last-child,
+td:last-child {
+  text-align: center;
+}
+
+
+/*
+Footer Area */
+
+footer {
+  background-image: linear-gradient(to bottom right, rgba(121, 90, 66, 0.473), rgb(46, 27, 3));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+
+}
+
+.twitter-logo {
+  width: 36px;
+  padding-top: 12px;
+  vertical-align: text-bottom;
+}
+
+a:any-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cfbbd6;
+
+}
+
+#footer-info {
+  padding-top: 10px;
+
+}
+
+#footer-info>p {
+  text-align: right;
+}
