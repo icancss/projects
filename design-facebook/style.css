@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBFBFD;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #1778F2;
+    font-weight: bolder;
+    font-size: 2.7rem;
+    padding-bottom: 2%;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+section {
+    width: 28vw;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 25vw;
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+    background-color: #fff;
+    border-radius: 0.5em;
+    line-height: 150%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+input {
+    width: 95%;
+    padding: 0.75em;
+    margin: 2% 0;
+    border: 1px solid lightgray;
+    border-radius: 0.3em;
+
+}
+
+input::placeholder {
+    color: gray;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+a {
+    margin: 1% auto;
+    width: 95%;
+    text-decoration: none;
+    color: #1778F2;
+    border-bottom: 1px solid lightgray;
+}
+
+button {
+    margin: 2% auto;
+    width: 95%;
+    border-radius: 0.3em;
+    color: #ffffff;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.loginButton {
+    background-color: #1778F2;
+    border: 1px solid #1778F2;
+    font-size: 0.9em;
+}
+
+.forgotPassword {
+    padding-bottom: 2%;
+    color: #1778F2;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.registerButton {
+    width: 55%;
+    margin: 1em;
+    background-color: #5cb85c;
+    border: 1px solid #5cb85c;
+}
+
+h4 {
+    padding-top: 1em;
+    font-size: small;
+    width: 26vw;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
