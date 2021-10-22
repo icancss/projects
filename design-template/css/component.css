@@ -1,0 +1,284 @@
+/* Components */
+
+/* box-1 */
+.box-1 {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-1 div {
+  background-color: rgb(47, 177, 236);
+  margin: 1%;
+  width: 80%;
+}
+
+.box-1 div:first-child {
+  height: 15%;
+}
+
+.box-1 div:nth-child(2) {
+  height: 10%;
+}
+
+.box-1 div:last-child {
+  height: 30%;
+  width: 30%;
+  margin-top: 4%;
+}
+
+/* box-2 (youtube) */
+.box-2 {
+  width: 45vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.box-2 div:first-child {
+  background-color: rgb(47, 177, 236);
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-2 #play {
+  width: 1px;
+  height: 1px;
+  border-style: solid;
+  border-width: 17px 0px 17px 17px;
+  border-color: transparent transparent transparent white;
+  border-radius: 0px 17px 17px 0px;
+}
+
+/* box-3 */
+.box-3 {
+  width: 15vw;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: visible;
+  background-color: rgb(47, 177, 236);
+}
+
+.box-3 div {
+  background-color: white;
+  margin: 1%;
+  width: 100%;
+  height: 2vh;
+  z-index: 1;
+}
+
+/* box-4 (iphone design) */
+.box-4 {
+  width: 20vw;
+  height: 100%;
+  border-radius: 1em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box-4 div {
+  background-color: rgb(47, 177, 236);
+}
+
+.box-4 div:first-child {
+  width: 55%;
+  height: 1px;
+}
+
+.box-4 div:nth-child(2) {
+  width: 90%;
+  height: 75%;
+}
+
+.box-4 div:last-child {
+  width: 3vw;
+  height: 5vh;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid rgb(47, 177, 236);
+}
+
+/* box-5 (mountains) */
+.box-5 {
+  width: 45vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sun {
+  background-color: rgb(47, 177, 236);
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  position: relative;
+  right: 5em;
+  top: 5em;
+}
+
+.mount-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mount {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid rgb(47, 177, 236);
+}
+
+.mount:last-child {
+  border-bottom: 100px solid rgb(47, 177, 236);
+}
+
+.mount:first-child {
+  padding-top: 50px;
+}
+
+#points {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.point {
+  margin: 5px;
+  width: 10px;
+  height: 10px;
+  background: rgb(47, 177, 236);
+  border-radius: 50%
+}
+
+/* box-6 (two sketchs together) */
+.box-6 {
+  background-color: rgb(47, 177, 236);
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1.2%;
+}
+
+/* buttons */
+#inner-box-1 {
+  margin-right: 5vw;
+  width: 15vw;
+  height: 15%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.button {
+  margin-right: 1em;
+  width: 4em;
+  height: 2em;
+  border-radius: 5em;
+  background-color: white;
+}
+
+.button-1::after {
+  content: "";
+  width: 2em;
+  height: 2em;
+  border-radius: 5em;
+  background-color: white;
+  border-right: 1px solid rgb(47, 177, 236);
+  position: absolute;
+}
+
+.button-2::before {
+  content: "";
+  width: 2em;
+  height: 2em;
+  border-radius: 5em;
+  background-color: rgb(47, 177, 236);
+  position: absolute;
+}
+
+/* mountains */
+#inner-box-2 {
+  background-color: white;
+  width: 30vw;
+  height: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner-box-2 .sun {
+  right: -3vw;
+  top: -7vh;
+}
+
+
+/* box-7 (bar) */
+.box-7 {
+  width: 65vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.box-7 div:first-child {
+  background-color: rgb(47, 177, 236);
+  width: 40vw;
+  height: 100%;
+  border: 1px solid white;
+  margin-right: 2vw;
+}
+
+/* box-8 (social media buttons) */
+.box-8 {
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(47, 177, 236);
+}
+
+.box-8 div {
+  background-color: white;
+  width: 4vw;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.fab {
+  font-size: 2em;
+  width: max-content;
+  height: max-content;
+  color: rgb(47, 177, 236);
+}

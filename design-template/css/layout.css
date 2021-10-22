@@ -1,0 +1,36 @@
+/* Layouting */
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.first-row {
+  width: 99vw;
+  height: 25vh;
+}
+
+.second-row {
+  width: 99vw;
+  height: 55vh;
+}
+
+.third-row {
+  width: 99vw;
+  height: 5vh;
+}
+
+.box {
+  background-color: white;
+  margin: 1%;
+}
